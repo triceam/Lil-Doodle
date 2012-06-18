@@ -1,0 +1,84 @@
+/* disable user selection */
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/Copy of UIWebView */
+}
+
+
+/* CSS Document */
+
+
+* {
+    -webkit-overflow-scrolling: none;
+}
+
+body {
+    background-color:#24389B;
+	padding: 0px;
+	margin: 0px;
+	text-align:center;
+}
+
+#background {
+	position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+	background:url(background.png);	
+}
+
+#canvas {
+	position:absolute;
+	top:31px;
+	left:120px;
+	border-radius: 25px;
+}
+
+#sliderThumb {
+	position:absolute;
+	top:685px;
+	left:95px;
+	width:69px;
+	height:62px;
+	background:url(btn_slider.png);
+	-webkit-transform:translate3d(0px, 0px, 0px) scale(1);
+}
+
+#brushes {
+	position:absolute;
+	top:40px;
+	left:5px;
+	width:106px;
+}
+
+#btnCircleSmall {
+	position:absolute;
+	top:5px;
+	left:0px;
+}
+
+#btnDiagonal{
+	position:absolute;
+	top:120px;
+	left:0px;
+}
+
+#btnCircle{
+	position:absolute;
+	top:240px;
+	left:0px;
+}
+
+#btnStar{
+	position:absolute;
+	top:360px;
+	left:0px;
+}
+
+#btnTriangle{
+	position:absolute;
+	top:480px;
+	left:0px;
+}
